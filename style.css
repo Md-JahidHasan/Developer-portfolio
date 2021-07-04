@@ -5,29 +5,29 @@ h1{
     font-size: 50px;
 }
 span{
-    color: rgb(233, 130, 13);
+    color:darkviolet;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half{
     width: 50%;
-    padding: 2%;
+    padding: 4%;
 }
 .half img{
     width: 100%;
 }
 h3{
-    color: dodgerblue;
+    color: rgb(63, 23, 206);
 }
 .lb{
-    color: navy;
-    font-size: x-large;
     text-decoration: none;
-    background-image: linear-gradient(rgb(255, 136, 0), rgb(124, 46, 32));
+    background-image:linear-gradient(rgb(224, 120, 152), rgb(218, 14, 92));
     padding: 10px 40px;
-    border:rgb(230, 75, 134) solid 4px;
-    border-radius: 15px;
+    border-radius: 6px;
+    font-weight: 900;
+    color: lawngreen;
 }
 .topbanner{
     background-image: url(images/top-banner.png);
@@ -35,4 +35,27 @@ h3{
 }
 body{
     margin: 0px;
+}
+.dream-sec{ 
+    width: 50% ;
+    padding: 6px;
+}
+.dream-sec img{
+    width: 80%;
+}
+#dream{
+    color: purple;
+}
+.sec-link{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 6%;
+    font-weight: bold;
+    color: snow;
+}
+.sec-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
