@@ -30,3 +30,10 @@ h3{
     border:rgb(230, 75, 134) solid 4px;
     border-radius: 15px;
 }
+.topbanner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+body{
+    margin: 0px;
+}
